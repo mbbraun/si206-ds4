@@ -42,6 +42,10 @@ class Problem1(unittest.TestCase):
     def test_factorial1(self):
         self.assertEqual(factorial(4),24)
 
+    def test_factorial(self):
+        self.assertEqual(check_leap_year(2000),True)
+    
+
 
 
 unittest.main(verbosity=2)
